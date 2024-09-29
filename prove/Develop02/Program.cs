@@ -5,10 +5,12 @@ class Program
 {
     static void Main(string[] args)
     {
+        Console.WriteLine("- - - - - - - - - - - - - - - - - \n\n Welcome to the Journal Program");
         Journal journal = new Journal();
         int mark = 0;
         do
         {
+            Console.WriteLine("\n- - - - - - - - - - - - - - - - -");
             Console.WriteLine("Please select one of the following choices:");
             Console.WriteLine("1. Write \n2. Display \n3. Load \n4. Save \n5. Quit");
             Console.Write("What would you like to do? ");
