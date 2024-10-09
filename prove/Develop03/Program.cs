@@ -6,7 +6,7 @@ class Program
     static void Main(string[] args)
     {
         Console.WriteLine();
-        Console.WriteLine("Welcome to the Scripture Program!");
+        Console.WriteLine("Welcome to the Scripture Memorizer Program!");
         Console.Write("Book: ");
         string book = Console.ReadLine();
         Console.Write("Chapter #: ");
