@@ -50,7 +50,7 @@ public class ListingActivity : Activity
       {
         Console.Write("> ");
         text = Console.ReadLine();
-        if (text.Length > 0)
+        if (text.Length > 0) //With this validation we count when the user type something instead of just hitting enter
         {
           _count++;
         }
@@ -68,7 +68,7 @@ public class ListingActivity : Activity
     Random random = new Random();
     int index;
 
-    do
+    do //with this validation we keep a record of the index already used so we do not repeat them
     {
       index = random.Next(_prompts.Count);
     } while (_promptPositions.Contains(index));

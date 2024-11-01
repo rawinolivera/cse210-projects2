@@ -96,7 +96,7 @@ public class ReflectingActivity : Activity
     Random random = new Random();
     int index;
 
-    do
+    do //with this validation we keep a record of the index already used so we do not repeat them
     {
       index = random.Next(_questions.Count);
     } while (_promptQuestions.Contains(index));
