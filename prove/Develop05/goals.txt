@@ -1,0 +1,5 @@
+875
+SimpleGoal:cantar,cantar en la reunion sacramental,50,True
+EternalGoal:santa cena,participar de la santa cena cada semana,80
+ChecklistGoal:templo,servir en el templo el mes de noviembre,100,400,4,4
+SimpleGoal:compras,hacer las compras de la semana,25,True
